@@ -1,0 +1,25 @@
+{
+  "name": "landscapeingnode",
+  "version": "1.0.0",
+  "description": "This is mockup of a website for my friends business.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-H33/LandscapingNode.git"
+  },
+  "author": "James-H33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-H33/LandscapingNode/issues"
+  },
+  "homepage": "https://github.com/James-H33/LandscapingNode#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.5"
+  }
+}

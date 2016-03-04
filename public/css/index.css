@@ -1,0 +1,210 @@
+body {
+  background: #f9f9f9;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+hr.style15 {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+hr.style15:after {
+	content: '~';
+	display: inline-block;
+	position: relative;
+	top: -28px;
+	padding: 0 10px;
+	background: #f9f9f9;
+	color: #8c8b8b;
+	font-size: 40px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/************************************************
+Navbar
+************************************************/
+
+
+.navbar-default .navbar-brand {
+  color: #558B2F;
+}
+
+.navbar-default {
+
+}
+
+
+
+/************************************************
+Header
+************************************************/
+
+.headerContainer {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.mainHeader {
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mainHeader h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.mainHeader p {
+  margin-top: 25px;
+}
+
+.middleHeader {
+  text-align: center;
+}
+
+.middleHeader li {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.middleHeader ul {
+  margin-top: 20px;
+}
+
+.splashContainer {
+  background: url("/imgs/landscaping.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.splashScreen {
+  color: black;
+}
+
+.splashScreen h3 {
+  font-size: 50px;
+}
+
+
+
+/************************************************
+Middle Content
+************************************************/
+
+.middleContainer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.middleHeader {
+  font-size: 40px;
+  color: gray;
+  letter-spacing: 2px;
+}
+
+.middleContent {
+  text-align: center;
+}
+
+.middleContent button {
+  margin: 15px auto;
+  padding: 7px 20px;
+}
+
+.col {
+  width: 100%;
+  display: block;
+  padding: 0 1em;
+}
+
+
+
+
+/************************************************
+Footer
+************************************************/
+.footerContainer {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  background: #e7e7e7;
+}
+
+.footer {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+
+/************************************************
+Media Queries
+************************************************/
+
+@media (min-width: 769px) {
+
+  .middleContainer {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .col {
+    width: 32%;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 0 1em;
+  }
+
+  .headerContainer {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  /*.col-head {
+    width: 48%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }*/
+
+  /************************************************
+  Middle Content
+  ************************************************/
+
+  .middleContainer {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .middleContainer i {
+    font-size: 200px;
+    color: rgba(30, 30, 30, 0.8);
+  }
+
+  .middleContentPhoto {
+    text-align: center;
+  }
+
+
+}
