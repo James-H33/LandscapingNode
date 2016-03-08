@@ -15,6 +15,14 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
-app.listen(process.env.PORT, process.env.IP, function() {
+app.get('/contact', function(req, res) {
+  res.render('contact');
+});
+
+// app.listen(process.env.PORT, process.env.IP, function() {
+//   console.log('Server has started..')
+// });
+
+app.listen(27017, function() {
   console.log('Server has started..')
 });
