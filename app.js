@@ -23,7 +23,7 @@ app.get('/services', function(req, res) {
 });
 
 app.listen(process.env.port, process.enc.IP, function() {
-  cosole.log("Server has started..");
+  console.log("Server has started..");
 })
 
 // app.listen(27017, function() {
