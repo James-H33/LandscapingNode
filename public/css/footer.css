@@ -4,7 +4,6 @@ Footer
 .footerContainer {
 width: 100%;
 background: rgba(40, 40, 40, 1);
-margin-top: 50px;
 }
 
 .footer {
@@ -32,6 +31,30 @@ color: #fff;
 }
 
 
+
+
+
+.scrollToTop{
+	width:40px;
+	height:40px;
+	padding:10px;
+	text-align:center;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	position:fixed;
+  border-radius: 100%;
+  box-shadow: 1px 1px 2px black;
+	bottom:75px;
+	right:40px;
+	display:none;
+  background: #fff;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+
 @media (min-width: 769px) {
 
   /**************************************************
@@ -40,7 +63,6 @@ color: #fff;
 .footerContainer {
   width: 100%;
   background: rgba(40, 40, 40, 1);
-  margin-top: 50px;
 }
 
 .footer {

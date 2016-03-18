@@ -115,8 +115,10 @@ border-left: 8px solid rgba(86, 133, 108, 0.7);
   margin-left: 25px;
 }
 
+
 .midOneDisplay img {
   width: 100%;
+  display: none;
 }
 
 /* ----- Middle Two Display -----*/
@@ -140,6 +142,10 @@ border-left: 8px solid rgba(86, 133, 108, 0.7);
   font-size: 10px;
   margin-left: 25px;
 }
+
+/**********************************************************
+Footer
+**********************************************************/
 
 
 
@@ -242,11 +248,20 @@ border-left: 8px solid rgba(86, 133, 108, 0.7);
     line-height: 30px;
     list-style-type: disc;
     font-size: 10px;
-    margin-left: 25px;
+    margin-left: 50px;
+  }
+
+  .midOneDisplay li {
+    color: green;
+  }
+
+  .midOneDisplay span {
+    color: #333;
   }
 
   .midOneDisplay img {
     width: 100%;
+    display: block;
   }
 
   /* ----- Middle Two Display -----*/
@@ -270,7 +285,15 @@ border-left: 8px solid rgba(86, 133, 108, 0.7);
     line-height: 30px;
     list-style-type: disc;
     font-size: 10px;
-    margin-left: 25px;
+    margin-left: 50px;
+  }
+
+  .midTwoDisplay li {
+    color: green;
+  }
+
+  .midTwoDisplay span {
+    color: #333;
   }
 
 
