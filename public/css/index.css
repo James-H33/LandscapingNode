@@ -121,7 +121,8 @@ Header
 }
 
 .splashContainer {
-  background: url("/imgs/landscaping.png");
+  /*background: url("/imgs/landscaping.png");*/
+  background: url("http://37.media.tumblr.com/a72e7330240022d787af306bd183275e/tumblr_n5sbu7INMF1sh23beo1_400.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
