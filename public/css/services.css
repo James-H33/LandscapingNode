@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+/**********************************************************
+Navbar
+**********************************************************/
+.navbar-default .navbar-brand {
+  color: #5e5e5e;
+  font-weight: bold;
+}
+
+
+.navbar-default {
+  margin-bottom: 0;
+}
+
+
+.navbar li a {
+  font-weight: bold;
+}
+
+
+/**********************************************************
+Button
+**********************************************************/
+.btn-success {
+  background: rgba(86, 133, 108, 0.7);
+  border: none;
+}
+
+.btn-success:hover {
+  background: rgba(86, 133, 108, 0.9);
+}
+
+
+
+/**********************************************************
+Intro
+**********************************************************/
+.introContainer {
+  width: 100%;
+  height: 500px;
+  background: url("https://images.unsplash.com/photo-1415045550139-59b6fafc832f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=88311c2700df3970f33c89d0de94a8eb");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.introOverlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.introDisplay {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 1em;
+  padding-top: 30px;
+}
+
+.introDisplay p {
+  line-height: 25px;
+}
+
+.introDisplay button {
+  margin-top: 20px;
+}
+
+
+
+/**********************************************************
+Middle Display
+**********************************************************/
+
+.midContainer {
+  width: 100%;
+  border: 3px solid #000;
+}
+
+.midContainer h3 {
+margin: 0;
+margin-left: 20px;
+padding-left: 5px;
+font-weight: bold;
+border-left: 8px solid rgba(86, 133, 108, 0.7);
+}
+
+.midContainer p {
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+.midOneDisplay {
+  width: 100%;
+}
+
+.midOneDisplay:nth-child(2) {
+  padding: 1em;
+}
+
+.midOneDisplay ul {
+  line-height: 30px;
+  list-style-type: disc;
+  font-size: 10px;
+  margin-left: 25px;
+}
+
+.midOneDisplay img {
+  width: 100%;
+}
+
+/* ----- Middle Two Display -----*/
+
+
+.midTwoDisplay {
+  width: 100%;
+}
+
+.midTwoDisplay img {
+  width: 100%;
+}
+
+.midTwoDisplay:nth-child(1) {
+  padding: 1em;
+}
+
+.midTwoDisplay ul {
+  line-height: 30px;
+  list-style-type: disc;
+  font-size: 10px;
+  margin-left: 25px;
+}
+
+
+
+
+@media (min-width: 769px) {
+
+  /**********************************************************
+  Navbar
+  **********************************************************/
+  .navbar-default {
+    height: 100px;
+  }
+
+
+  .navbar-default .navbar-brand  {
+    font-size: 35px;
+    font-weight: bold;
+    color: #5e5e5e;
+    letter-spacing: 5px;
+    padding-top: 28px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    padding-top: 40px;
+  }
+
+
+
+
+  /**********************************************************
+  Intro
+  **********************************************************/
+
+  .introContainer {
+    width: 100%;
+    height: 500px;
+    background: url("https://images.unsplash.com/photo-1415045550139-59b6fafc832f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=88311c2700df3970f33c89d0de94a8eb");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .introOverlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .introDisplay {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 55px;
+    color: #fff;
+  }
+
+  .introDisplay p {
+    line-height: 32px;
+  }
+
+  .introDisplay button {
+    margin-top: 20px;
+  }
+
+
+
+  /**********************************************************
+  Middle Display
+  **********************************************************/
+
+  .midContainer {
+    width: 100%;
+    border: 3px solid #000;
+  }
+
+.midContainer h3 {
+  margin: 0;
+  margin-left: 20px;
+  padding-left: 5px;
+  font-weight: bold;
+  border-left: 8px solid rgba(86, 133, 108, 0.7);
+}
+
+  .midContainer p {
+    line-height: 30px;
+    margin-left: 30px;
+  }
+
+  .midOneDisplay {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .midOneDisplay:nth-child(2) {
+    padding: 1em;
+  }
+
+  .midOneDisplay ul {
+    line-height: 30px;
+    list-style-type: disc;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+
+  .midOneDisplay img {
+    width: 100%;
+  }
+
+  /* ----- Middle Two Display -----*/
+
+
+  .midTwoDisplay {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .midTwoDisplay img {
+    width: 100%;
+  }
+
+  .midTwoDisplay:nth-child(1) {
+    padding: 1em;
+  }
+
+  .midTwoDisplay ul {
+    line-height: 30px;
+    list-style-type: disc;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+
+
+
+
+}
