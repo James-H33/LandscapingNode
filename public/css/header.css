@@ -2,6 +2,7 @@
   padding-top: 10px;
   border-top: 30px solid rgba(86, 133, 108, 0.7);
   border-bottom: 5px solid rgba(86, 133, 108, 0.7);
+  transition: 0.3s;
 }
 
 /************************************************
