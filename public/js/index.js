@@ -16,7 +16,7 @@ $(window).scroll(function() {
     if(scrollCheck > $('.midTwoDisplay').offset().top - ($(window).height() * .5)) {
       $('.midTwoDisplay').css({
         'opacity' : '1',
-        'transform' : 'translateX(0px)'
+        'transform' : 'translateY(0px)'
       });
     }
 
