@@ -189,34 +189,14 @@ Media Queries
     position: relative;
   }
 
-  .headerList {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background: rgba(86, 133, 108, 0.7);
-    position: absolute;
-    bottom: 0;
+
+  .headerCol span {
+    font-size: 20px;
   }
 
-  .headerCol {
-    color: #fff;
-    font-family: aria;
-    padding: 25px;
-    margin: 0;
-    font-size: 0.9em;
-    width: 24%;
-    display: inline-block;
-    min-width: 180px;
-    border-left: 1px solid #fff;
-}
-
-.headerCol span {
-  font-size: 20px;
-}
-
-.headerCol:nth-child(1) {
-  border: none;
-}
+  .headerCol:nth-child(1) {
+    border: none;
+  }
 
 
 
