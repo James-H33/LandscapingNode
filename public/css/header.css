@@ -9,6 +9,21 @@
   transition: 0.3s;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #5e5e5e;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: none;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+
 .btn-primary {
     color: #000;
     background-color: rgba(0, 0, 0, 0);

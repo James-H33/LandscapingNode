@@ -3,7 +3,7 @@ Footer
 **************************************************/
 .footerContainer {
 width: 100%;
-background: rgba(40, 40, 40, 1);
+background: rgba(20, 20, 20, 1);
 }
 
 .footer {
@@ -57,10 +57,7 @@ color: #fff;
   /**************************************************
   Footer
   **************************************************/
-.footerContainer {
-  width: 100%;
-  background: rgba(40, 40, 40, 1);
-}
+
 
 .footer {
   width: 80%;

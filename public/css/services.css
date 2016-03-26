@@ -49,7 +49,7 @@ Intro
 .introContainer {
   width: 100%;
   height: 100vh;
-  background: url("https://images.unsplash.com/photo-1433360405326-e50f909805b3?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+  background: url("https://images.unsplash.com/photo-1458693416646-07f13b1a3159?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
   background-position: center;
   background-size: cover;
   background-attachment: initial;
@@ -59,8 +59,9 @@ Intro
 .introOverlay {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   font-size: 1.5em;
+  z-index: 3;
 }
 
 .introDisplay {
@@ -75,10 +76,12 @@ Intro
 }
 
 .introDisplay h1 {
+  color: #f9f9f9;
   font-size: 30px;
 }
 
 .introDisplay p {
+  color: #f9f9f9;
   line-height: 25px;
 }
 
@@ -220,13 +223,6 @@ Footer
   .introContainer {
     height: 90vh;
     background-attachment: fixed;
-  }
-
-
-  .introOverlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
   }
 
   .introDisplay {

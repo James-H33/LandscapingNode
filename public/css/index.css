@@ -158,8 +158,9 @@ Middle Content
   margin-top: 50px;
 }
 
-.middleHeader {
-  font-size: 40px;
+
+.middleHeader h1 {
+  font-size: 25px;
   color: gray;
   letter-spacing: 2px;
 }
