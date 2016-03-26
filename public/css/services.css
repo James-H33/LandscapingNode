@@ -140,6 +140,7 @@ Middle Display
   transition: all 0.4s ease-in-out;
   overflow: hidden;
   padding: 1em;
+  padding-top: 60px;
 }
 
 
@@ -175,6 +176,7 @@ Middle Display
   transition: all 0.4s ease-in-out;
   overflow: hidden;
   padding: 1em;
+  padding-top: 60px;
 }
 
 .midTwoDisplay ul {
