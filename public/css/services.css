@@ -76,12 +76,12 @@ Intro
 }
 
 .introDisplay h1 {
-  color: #f9f9f9;
+  color: #ccc;
   font-size: 30px;
 }
 
 .introDisplay p {
-  color: #f9f9f9;
+  color: #ccc;
   line-height: 25px;
 }
 
