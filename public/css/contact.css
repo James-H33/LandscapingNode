@@ -6,3 +6,74 @@
 ul {
   list-style-type: none;
 }
+
+.contactContainer {
+  width: 100%;
+  padding: 50px 0;
+  background: #1d1d1d;
+}
+
+.contactWrapper {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  color: #ccc;
+}
+
+
+.contactHeader {
+  width: 100%;
+  /*padding: 1em;*/
+}
+
+.contactHeader h1, .contactHeader h3 {
+  border-left: 8px solid rgba(86, 133, 108, 0.7);
+  padding: 0 10px;
+}
+
+.contactInfo {
+  padding: 1em 0;
+}
+
+.contactInfo li {
+  margin: 30px 0;
+}
+
+.col {
+  /*vertical-align: top;*/
+}
+
+@media (min-width: 769px) {
+
+  contactWrapper {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+  .contactHeader {
+    width: 70%;
+    /*padding: 1em;*/
+  }
+
+  .contactInfo {
+    width: 25%;
+    position: absolute;
+    top: 20px;
+    padding: 1em 0;
+    padding-left: 40px;
+  }
+
+  .contactInfo li {
+    margin: 30px 0;
+  }
+
+  .col {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+}
