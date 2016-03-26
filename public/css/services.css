@@ -77,12 +77,14 @@ Intro
 
 .introDisplay h1 {
   color: #ccc;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .introDisplay p {
   color: #ccc;
   line-height: 25px;
+  font-style: italic;
 }
 
 .introDisplay button {
