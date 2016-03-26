@@ -1,3 +1,7 @@
+* {
+  font-family: Fira Sans, Sans;
+}
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   padding-top: 10px;
   border-top: 30px solid rgba(86, 133, 108, 0.7);
@@ -5,10 +9,35 @@
   transition: 0.3s;
 }
 
+.btn-primary {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #000;
+    border: 2px solid #000;
+    transition: all 0.6s ease;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border-color: #000;
+  border: 2px solid #000;
+  transition: all 0.6s ease;
+}
+
+
+
+.btn {
+  border-radius: 0;
+}
+
 /************************************************
 Navbar
 ************************************************/
 
+.container-fluid {
+  max-width: 1200px;
+}
 
 .navbar-default .navbar-brand {
   color: #5e5e5e;
