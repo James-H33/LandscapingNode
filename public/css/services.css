@@ -107,17 +107,24 @@ Middle Display
 
 .midContainer {
   width: 100%;
+  background: #1D1D1D;
 }
 
 .midContainer h3 {
-margin: 0;
-margin-left: 20px;
-padding-left: 5px;
-font-weight: bold;
-border-left: 8px solid rgba(86, 133, 108, 0.7);
+  color: #ccc;
+  margin: 0;
+  margin-left: 20px;
+  padding-left: 5px;
+  font-weight: bold;
+  border-left: 8px solid rgba(86, 133, 108, 0.7);
+}
+
+.midContainer span {
+  color: #ccc;
 }
 
 .midContainer p {
+  color: #ccc;
   line-height: 30px;
   margin-left: 30px;
 }
@@ -290,9 +297,6 @@ Footer
     color: green;
   }
 
-  .midOneDisplay span {
-    color: #333;
-  }
 
   .midOneDisplay img {
     width: 100%;
@@ -327,9 +331,7 @@ Footer
     color: green;
   }
 
-  .midTwoDisplay span {
-    color: #333;
-  }
+
 
 
 }
