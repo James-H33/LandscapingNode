@@ -27,9 +27,14 @@ ul {
   /*padding: 1em;*/
 }
 
+
 .contactHeader h1, .contactHeader h3 {
   border-left: 8px solid rgba(86, 133, 108, 0.7);
   padding: 0 10px;
+}
+
+.contactHeader p {
+  font-weight: 300;
 }
 
 .contactInfo {
@@ -38,7 +43,9 @@ ul {
 
 .contactInfo li {
   margin: 30px 0;
+  font-weight: 300;
 }
+
 
 .col {
   /*vertical-align: top;*/
