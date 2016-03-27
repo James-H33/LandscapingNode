@@ -9,8 +9,8 @@ ul {
 
 .contactContainer {
   width: 100%;
-  padding: 50px 0;
-  background: #1d1d1d;
+  padding: 20px 0;
+  background: #fff;
 }
 
 .contactWrapper {
@@ -18,7 +18,7 @@ ul {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  color: #ccc;
+  color: #1d1d1d;
 }
 
 
@@ -35,6 +35,8 @@ ul {
 
 .contactHeader p {
   font-weight: 300;
+  line-height: 25px;
+  padding-bottom: 25px;
 }
 
 .contactInfo {
@@ -46,18 +48,28 @@ ul {
   font-weight: 300;
 }
 
-
 .col {
   /*vertical-align: top;*/
 }
 
+#map {
+  height: 300px;
+}
+
 @media (min-width: 769px) {
 
-  contactWrapper {
+  .contactWrapper {
     max-width: 1000px;
     width: 80%;
     margin: 0 auto;
     position: relative;
+  }
+
+
+  .contactContainer {
+    width: 100%;
+    padding: 50px 0;
+    background: #fff;
   }
 
 
